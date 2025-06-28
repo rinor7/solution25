@@ -1,0 +1,183 @@
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button,
+input {
+    outline: none;
+    border: none;
+}
+
+pre {
+    overflow: initial;
+    white-space: pre-wrap;
+}
+
+body {
+    overflow-x: hidden;
+
+    &.overflow-hidden {
+        overflow: hidden;
+    }
+}
+
+.btn {
+    font-size: 16px;
+    line-height: 20px;
+    font-family: $font-sourceSansPro-bold;
+    color: $white;
+    background: $black;
+    display: inline-block;
+    padding: 13px 30px;
+    outline: none;
+    transition: all 0.9s;
+    background: linear-gradient(90deg, $black 33%, transparent 50%),
+        linear-gradient(90deg, #ffffff1f 10%, $black 66%);
+    background-size: 300% 100%;
+    background-position: left bottom;
+
+    @media (max-width: 992px) {
+        width: 100%;
+        text-align: center;
+        background: $black;
+        background-size: 100%;
+    }
+
+    &:hover {
+        color: $white;
+        background-position: right bottom;
+    }
+
+    &.btn-white {
+        background: linear-gradient(90deg, $white 33%, transparent 50%),
+            linear-gradient(90deg, $black 30%, $white 66%);
+        background-size: 300% 100%;
+        color: $black;
+
+        @media (max-width: 992px) {
+            width: 100%;
+            text-align: center;
+            background: $white;
+            background-size: 100%;
+        }
+
+        &:hover {
+            background-position: right bottom;
+            color: $black;
+        }
+    }
+}
+
+.btn-text {
+    font-size: 16px;
+    line-height: 20px;
+    display: inline-block;
+    color: $white;
+    font-family: $font-sourceSansPro-bold;
+
+    &:hover {
+        color: $white;
+    }
+}
+
+.line {
+    -webkit-animation-name: blinker;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: cubic-bezier(0.5, 0, 1, 1);
+    -webkit-animation-duration: 0.5s;
+
+    &.green {
+        color: $green;
+    }
+
+    &.blue {
+        color: $light-blue;
+    }
+}
+
+@-webkit-keyframes blinker {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0.2;
+    }
+}
+
+.breadcrumbs-white {
+    #crumbs {
+        background-color: $white;
+        color: $black;
+        padding: 0;
+    }
+}
+
+#crumbs {
+    padding: 30px 0;
+    background-color: $black;
+    color: $white;
+
+    a,
+    .current {
+        font-size: 16px;
+        line-height: 20px;
+        font-family: $font-sourceSansPro-regular;
+    }
+
+    .current {
+        font-family: $font-sourceSansPro-bold;
+    }
+}
+
+.form-wrapper .wpcf7-checkbox {
+    display: flex;
+    font-family: $font-sourceSansPro-bold;
+
+    .wpcf7-list-item {
+        width: 100%;
+        margin: 0 0 20px;
+    }
+
+    input {
+        display: inline-block;
+        width: 16px !important;
+        height: 16px !important;
+        margin-right: 16px;
+        margin-bottom: 0;
+    }
+
+    span label {
+        display: flex;
+        align-items: center;
+    }
+}

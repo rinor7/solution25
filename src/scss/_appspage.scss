@@ -1,0 +1,90 @@
+.new-apps-banner {
+    position: relative;
+    height: 45vh;
+    video {
+        height: 100%;
+        object-fit: cover;
+        width: 100%;
+        object-position: center;
+    }
+    .new-apps-banner-text {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        max-width: 70%;
+        h1 {
+            font-size: 48px;
+            color: #ffffff;
+            line-height: 68px;
+            font-family: $font-sourceSansPro-black;
+            @media screen and (max-width:992px){
+                font-size:36px;
+                line-height: 40px;
+                margin-right:20px ;
+            }
+        }
+        .btn {
+            margin-right: 20px;
+        }
+    }
+}
+.technology-aps{
+    background-color:#F8F9FC ;
+    padding-top: 120px;
+    h2{
+        text-align: center;
+        font-family: $font-sourceSansPro-semibold;
+        font-size: 48px;
+    }
+    pre{
+        max-width: 700px;
+        text-align: center;
+        margin: 0 auto;
+        font-family: $font-sourceSansPro-regular;
+        font-size: 18px;
+        margin-bottom: 50px;
+        color: #000000C7;
+        margin-top: 16px;
+    }
+    .aps-box{
+        margin-bottom: 60px;
+        img{
+            margin-bottom: 20px;
+            max-width: 105px;
+            max-height: 61px;
+            object-fit: contain;
+
+            @media screen and (max-width:992px){
+                display: flex;
+                margin: 0 auto;
+                margin-bottom: 10px;
+            }
+        }
+        h3{
+            font-size: 32px;
+            line-height: 46px;
+            font-family: $font-sourceSansPro-semibold;
+            margin-bottom: 16px;
+            @media screen and (max-width:992px){
+                text-align: center;
+            }
+        }
+        pre{
+            margin-bottom: 25px;
+            text-align: left;
+            min-height: 150px;
+            font-family: $font-sourceSansPro-regular;
+            color: #000000C7;
+            margin-top: 0;
+        }
+        a{
+            color: #294DFF;
+            font-size: 16px;
+            font-family: $font-sourceSansPro-semibold;
+            @media screen and (max-width:992px){
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}

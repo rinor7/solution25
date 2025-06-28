@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="22" viewBox="0 0 24 22">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.426" x2="1" y2="0.577" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#975edc"/>
+      <stop offset="1" stop-color="#3d4dcf"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.685" y1="0.887" x2="0.848" y2="0.116" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f26322"/>
+      <stop offset="1" stop-color="#a36ff6"/>
+    </linearGradient>
+  </defs>
+  <g id="magento-to-shopware6" transform="translate(-489 -5950.224)">
+    <g id="shopware-6" transform="translate(499.588 5958.175)">
+      <path id="Path_10767" data-name="Path 10767" d="M5.991.047C4-.377.527,2.068.031,5.969c-.431,3.389,3.758,7.379,6.223,7.98,1.258.307,2.9-.024,4.811-1.923,1.2-1.187,1.963-4.134-.67-6.995C8.483,2.954,7.629.4,5.991.047" transform="translate(-0.001 0.001)" fill="url(#linear-gradient)"/>
+      <path id="Path_10768" data-name="Path 10768" d="M39.839,30.993a6.325,6.325,0,1,1-6.322-6.129,6.228,6.228,0,0,1,6.322,6.129" transform="translate(-26.428 -24.158)" opacity="0.767" fill="url(#linear-gradient-2)"/>
+      <path id="Path_10769" data-name="Path 10769" d="M3.883,2.151,5.5,0H3.027L.613,3.227a3.028,3.028,0,1,0,3.27-1.076M3.027,6.077A1.028,1.028,0,1,1,4.057,5.05a1.029,1.029,0,0,1-1.03,1.028" transform="translate(3.469 2.725)" fill="#fff"/>
+    </g>
+    <path id="Path_10758" data-name="Path 10758" d="M9.722,3.843l-2.5.338A.53.53,0,1,1,7.078,3.13l.761-.1C5.052.691,1.684,1.2.144,3.172A.08.08,0,0,1,0,3.1C.888.5,4.148-1.123,7.83.927q.531.3,1.049.643L8.789.9A.533.533,0,0,1,9.845.756l.334,2.49a.532.532,0,0,1-.457.6h0Z" transform="matrix(0.966, 0.259, -0.259, 0.966, 497.782, 5950.225)" fill="url(#linear-gradient-3)"/>
+    <g id="magento" transform="translate(489 5953.225)">
+      <path id="Path_10742" data-name="Path 10742" d="M4.828,0,0,2.758v5.51l1.378.789-.01-5.511,3.45-1.971,3.45,1.971V9.054l1.378-.786V2.754Z" fill="#f26322"/>
+      <path id="Path_10743" data-name="Path 10743" d="M229.158,300.01l-.689.4-.692-.393V294.5l-1.377.787,0,5.511,2.066,1.181,2.068-1.181v-5.511l-1.378-.787Z" transform="translate(-223.646 -290.954)" fill="#f26322"/>
+    </g>
+  </g>
+</svg>

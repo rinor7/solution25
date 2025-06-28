@@ -1,0 +1,103 @@
+.story-wrapper {
+    padding: 40px;
+
+    @media (max-width: 992px) {
+        padding: 40px 0;
+    }
+
+    h3 {
+        font-size: 38px;
+        line-height: 47px;
+        font-family: $font-sourceSansPro-black;
+        color: $black;
+        margin-bottom: 24px;
+    }
+
+    pre {
+        font-size: 18px;
+        line-height: 30px;
+        font-family: $font-sourceSansPro-semibold;
+        margin-bottom: 30px;
+    }
+}
+
+.our-team-wrapper {
+    padding: 40px 0;
+    background-color: $light-gray;
+
+    h3 {
+        font-size: 38px;
+        line-height: 47px;
+        font-family: $font-sourceSansPro-black;
+        color: $black;
+        margin-bottom: 24px;
+    }
+
+    img {
+        // height: 390px;
+        width: 100%;
+        object-fit: contain;
+        object-position: center center;
+    }
+
+    .team-content {
+        background-color: $black;
+        padding: 16px;
+        margin-bottom: 24px;
+        height: 81px;
+
+        h3 {
+            font-size: 24px;
+            line-height: 31px;
+            font-family: $font-sourceSansPro-black;
+            color: $white;
+            margin-bottom: 0;
+        }
+
+        pre {
+            font-size: 14px;
+            line-height: 18px;
+            font-family: $font-sourceSansPro-regular;
+            color: $white;
+        }
+    }
+
+    .team-member {
+        overflow: hidden;
+        // height: 470px;
+        // margin-bottom: 20px;
+
+        &:hover {
+            .text-wrapper {
+                transform: translateY(calc(-100% + -104px));
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+    }
+
+    .text-wrapper {
+        background-color: $black;
+        padding: 16px;
+        transform: translateY(0);
+        height: calc(100% - 81px);
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.6s;
+
+        span {
+            color: $green;
+            font-size: 24px;
+            line-height: 31px;
+            font-family: $font-sourceSansPro-italic;
+        }
+
+        pre {
+            font-size: 24px;
+            line-height: 31px;
+            font-family: $font-sourceSansPro-italic;
+            color: $white;
+            display: initial;
+        }
+    }
+}

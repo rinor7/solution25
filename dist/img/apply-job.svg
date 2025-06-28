@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42">
+  <g id="apply-job" transform="translate(-1466 -2392)">
+    <g id="Rectangle_1495" data-name="Rectangle 1495" transform="translate(1466 2392)" fill="none" stroke="#000" stroke-width="2">
+      <rect width="42" height="42" rx="21" stroke="none"/>
+      <rect x="1" y="1" width="40" height="40" rx="20" fill="none"/>
+    </g>
+    <g id="arrow-down-short" transform="translate(1474.375 2429.124) rotate(-90)">
+      <path id="Path_175" data-name="Path 175" d="M10.375,17.124a.857.857,0,0,1,1.214,0l4.535,4.537,4.536-4.537a.858.858,0,0,1,1.214,1.214L16.731,23.48a.857.857,0,0,1-1.214,0l-5.142-5.142a.857.857,0,0,1,0-1.214Z" transform="translate(0 -1.607)" fill-rule="evenodd"/>
+      <path id="Path_176" data-name="Path 176" d="M17.732,3.125a.857.857,0,0,1,.857.857V19.553a.857.857,0,1,1-1.714,0V3.982A.857.857,0,0,1,17.732,3.125Z" transform="translate(-1.608)" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

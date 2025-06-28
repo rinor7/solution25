@@ -1,0 +1,53 @@
+.impressum_content {
+    padding: 40px 0;
+
+    h1 {
+        font-size: 36px;
+        line-height: 45px;
+        font-family: $font-sourceSansPro-black;
+        color: $black;
+        margin: 24px 0;
+        text-align: center;
+
+        @media (max-width: 993px) {
+            font-size: 24px;
+            line-height: 31px;
+        }
+    }
+
+    h3 {
+        font-size: 32px;
+        line-height: 38px;
+        font-family: $font-sourceSansPro-semibold;
+        color: $black;
+        margin: 24px 0;
+        text-align: center;
+
+        @media (max-width: 993px) {
+            font-size: 24px;
+            line-height: 31px;
+        }
+    }
+
+    .subtitle {
+        font-size: 24px;
+        line-height: 31px;
+        font-family: $font-sourceSansPro-semibold;
+        color: $black;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 40px;
+
+        @media (max-width: 992px) {
+            margin-bottom: 30px;
+        }
+    }
+
+    pre {
+        font-size: 18px;
+        line-height: 30px;
+        color: $dark-gray;
+        font-family: $font-sourceSansPro-regular;
+        margin-bottom: 20px;
+    }
+}

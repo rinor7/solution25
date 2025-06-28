@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="376" height="407" viewBox="0 0 376 407">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_3380" data-name="Rectangle 3380" width="376" height="407" transform="translate(0 560)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.025" y1="0.902" x2="0.669" y2="0.346" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0a1128"/>
+      <stop offset="1" stop-color="#00183b"/>
+    </linearGradient>
+  </defs>
+  <g id="hero_mobile" data-name="hero mobile" transform="translate(0 -560)" clip-path="url(#clip-path)">
+    <path id="Line_67" data-name="Line 67" d="M-71.421,418.585A128.4,128.4,0,0,1-181.817,356a128.469,128.469,0,0,1,44.367-176.181L467.638-181.817a128.469,128.469,0,0,1,176.181,44.367A128.468,128.468,0,0,1,599.452,38.732L-5.635,400.371A127.884,127.884,0,0,1-71.421,418.585Z" transform="translate(200.03 577.031)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
